@@ -1,0 +1,160 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: rgb(121, 95, 163);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 4em;
+  padding: 40px 0;
+  color: rgb(234, 226, 255);
+  text-shadow: 1px 1px 5px rgba(37, 37, 37, 0.45);
+
+  i.fa {
+    color: #fff;
+    padding-right: 20px;
+    font-size: 1.3em;
+    font-weight: bold;
+    vertical-align: -10px;
+  }
+
+  .credits {
+    font-size: 0.3em;
+    display: block;
+    color: inherit;
+
+    a {
+      color: inherit;
+      text-decoration: underline;
+      transition: color 0.1s;
+
+      &:hover {
+        color: rgb(52, 194, 255);
+      }
+    }
+  }
+}
+
+h2 {
+  font-size: 1.8em;
+  padding: 20px;
+  background-color: rgb(51, 51, 51);
+  color: #fff;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 -2px 10px 3px rgba(27, 27, 27, 0.41);
+  border: 2px solid #ddd;
+  border-bottom: 0;
+}
+
+img {
+  height: 100px;
+}
+
+table {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  text-align: center;
+  border: 2px solid #ddd;
+  border-top: 0;
+  box-shadow: 0 2px 10px 3px rgba(27, 27, 27, 0.41);
+
+  thead tr {
+    background-color: #ddd;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  tr {
+    background-color: #eee;
+  }
+
+  tr:nth-child(even) {
+    background-color: #ddd;
+  }
+
+  td {
+    padding: 15px;
+    font-size: 0.9em;
+
+     a {
+      text-decoration: none;
+      color: rgb(0, 108, 221);
+      transition: color 0.2s;
+      display: block;
+
+      &:hover {
+        color: rgb(130, 0, 210);
+        text-decoration: underline;
+      }
+    }
+  }
+
+  td.name {
+    font-size: 1.2em;
+  }
+
+  td.logo {
+    img {
+      border-radius: 50%;
+    }
+  }
+
+  td.preview img {
+    border-radius: 5px;
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: 0 1px 3px rgba(60, 60, 60, 0.43);
+  }
+
+  td.status {
+    font-size: 2em;
+    text-shadow: 0 1px 5px rgba(48, 48, 48, 0.9);
+  }
+
+  .meta span {
+    display: block;
+
+    &:first-child {
+      padding-bottom: 10px;
+    }
+  }
+
+  .online {
+    color: rgb(0, 171, 58);
+  }
+
+  .offline {
+    color: rgb(255, 0, 0);
+  }
+
+  .not-found {
+    color: rgb(228, 99, 16);
+  }
+}
+
+p.spinner {
+  background-color: rgb(234, 226, 255);
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 50px;
+
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}

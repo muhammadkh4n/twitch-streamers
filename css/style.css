@@ -1,0 +1,132 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #795fa3;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2 {
+  text-align: center;
+}
+h1 {
+  font-size: 4em;
+  padding: 40px 0;
+  color: #eae2ff;
+  text-shadow: 1px 1px 5px rgba(37, 37, 37, 0.45);
+}
+h1 i.fa {
+  color: #fff;
+  padding-right: 20px;
+  font-size: 1.3em;
+  font-weight: bold;
+  vertical-align: -10px;
+}
+h1 .credits {
+  font-size: 0.3em;
+  display: block;
+  color: inherit;
+}
+h1 .credits a {
+  color: inherit;
+  text-decoration: underline;
+  transition: color 0.1s;
+}
+h1 .credits a:hover {
+  color: #34c2ff;
+}
+h2 {
+  font-size: 1.8em;
+  padding: 20px;
+  background-color: #333333;
+  color: #fff;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 -2px 10px 3px rgba(27, 27, 27, 0.41);
+  border: 2px solid #ddd;
+  border-bottom: 0;
+}
+img {
+  height: 100px;
+}
+table {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  text-align: center;
+  border: 2px solid #ddd;
+  border-top: 0;
+  box-shadow: 0 2px 10px 3px rgba(27, 27, 27, 0.41);
+}
+table thead tr {
+  background-color: #ddd;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+table tr {
+  background-color: #eee;
+}
+table tr:nth-child(even) {
+  background-color: #ddd;
+}
+table td {
+  padding: 15px;
+  font-size: 0.9em;
+}
+table td a {
+  text-decoration: none;
+  color: #006cdd;
+  transition: color 0.2s;
+  display: block;
+}
+table td a:hover {
+  color: #8200d2;
+  text-decoration: underline;
+}
+table td.name {
+  font-size: 1.2em;
+}
+table td.logo img {
+  border-radius: 50%;
+}
+table td.preview img {
+  border-radius: 5px;
+  border: 5px solid #ffffff;
+  box-shadow: 0 1px 3px rgba(60, 60, 60, 0.43);
+}
+table td.status {
+  font-size: 2em;
+  text-shadow: 0 1px 5px rgba(48, 48, 48, 0.9);
+}
+table .meta span {
+  display: block;
+}
+table .meta span:first-child {
+  padding-bottom: 10px;
+}
+table .online {
+  color: #00ab3a;
+}
+table .offline {
+  color: #ff0000;
+}
+table .not-found {
+  color: #e46310;
+}
+p.spinner {
+  background-color: #eae2ff;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 50px;
+}
+p.spinner img {
+  width: 50px;
+  height: 50px;
+}
