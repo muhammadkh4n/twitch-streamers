@@ -68,9 +68,9 @@ function init(event) {
     for (var i = 0; i < streams.length; i++) {
       var s = streams[i].stream ? streams[i].stream : streams[i];
       if (s.error) { // not found
-        var display_name = s.message.match(/'(.+)'/);
-        if (display_name[1]) {
-          display_name = display_name[1];
+        var display_name = s.message.match(/login (.+)/);
+        if (display_name) {
+          display_name = /\w+/.exec(display_name[1]);
         } else {
           display_name = s.message;
         }
